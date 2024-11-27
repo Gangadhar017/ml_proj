@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+        }
+        .result {
+            font-size: 1.5em;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Results</h1>
+    <p class="result">
+        Your predicted risk of cardiovascular disease: 
+        <strong>{{ risk }}</strong>
+    </p>
+    <p class="result">
+        Risk Score: <strong>{{ risk_score }}%</strong>
+    </p>
+    <a href="/">Make another prediction</a>
+</body>
+</html>
